@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+    img{
+        width: 500px;
+        height: 250px;
+        padding:0px ;
+        margin: 0px;
+        display: block; /*Joining All the Images*/
+            }
+    td{
+        height: 180px;
+        padding:0px;
+        margin:0px;
+    }
+    
+</style>
+<!--Joining All The Images -->
+<table cellpadding=0 cellspacing=0>
+  <tr>
+    <td><img src="./imagaes/9.png" onclick="playcrash()"></td>
+    <td><img src="./imagaes/8.png" onclick="playhightom()"></td>
+    <td><img src="./imagaes/7.png" onclick="playride()"></td>
+      
+  </tr>
+  <tr>     
+    <td><img src="./imagaes/6.png" onclick="playsnare()"></td>
+    <td><img src="./imagaes/5.png"onclick="playlowtom()"></td>
+    <td><img src="./imagaes/4.png" onclick="playmidtom()"></td>
+  </tr>
+  <tr>     
+    <td><img src="./imagaes/3.png"></td>
+    <td><img src="./imagaes/2.png"></td>
+    <td><img src="./imagaes/1.png"></td>
+  </tr>
+</table>
+<!--Audio Files-->
+<audio id="crash">
+  <source src="./sounds/crash.wav" type="audio/wav">
+</audio>
+<audio id="kick">
+  <source src="./sounds/kick.wav" type="audio/wav">
+</audio>
+<audio id="hightom">
+  <source src="./sounds/tom-high.wav" type="audio/wav">
+</audio>
+<audio id="midtom">
+  <source src="./sounds/tom-mid.wav" type="audio/wav">
+</audio>
+<audio id="lowtom">
+  <source src="./sounds/tom-low.wav" type="audio/wav">
+</audio>
+<audio id="snare">
+  <source src="./sounds/snare.wav" type="audio/wav">
+</audio>
+<audio id="ride">
+  <source src="./sounds/ride.wav" type="audio/wav">
+</audio>
+
+<!--Java Script-->
+<script>
+var crash = document.getElementById("crash");
+var kick = document.getElementById("kick");
+var hightom = document.getElementById("hightom");
+var midtom = document.getElementById("midtom");
+var lowtom = document.getElementById("lowtom");
+var snare = document.getElementById("snare");
+var snare = document.getElementById("ride");
+
+function playcrash() { 
+  crash.play(); 
+}
+function playkick() { 
+  kick.play(); 
+}
+function playhightom() { 
+  hightom.play(); 
+}
+function playmidtom() { 
+  midtom.play(); 
+}
+function playlowtom() { 
+  lowtom.play(); 
+}
+function playsnare() { 
+  snare.play(); 
+}
+function playride() { 
+  ride.play(); 
+}
+
+</script>
+
+</body>
+</html>
