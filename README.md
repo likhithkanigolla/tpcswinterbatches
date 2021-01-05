@@ -24,4 +24,4 @@ You'll have the opportunity to ask and answers to your questions live.
  
 No need to pay any charges simply click on the following link https://tinyurl.com/tpcswinter
 
-Join Our Whatsapp Group: https://chat.whatsapp.com/FBL8cjLSP5J2wh7623pRCJ
+Join Our Whatsapp Group: https://chat.whatsapp.com/CPw4MoKNzNh4gHxpupS9T8
